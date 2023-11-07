@@ -53,7 +53,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    animation: menu-showing .3s;
 }
 
 .header__menu .menu__link {
@@ -61,12 +60,6 @@ body {
     line-height: 16px;
     color: #000;
     text-decoration: none;
-}
-
-@keyframes menu-showing {
-    from {
-        transform: translateY(95%);
-    }
 }
 
 /* Прописать стили для блока info и portifolio нужно самостоятельно */
