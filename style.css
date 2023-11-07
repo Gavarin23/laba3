@@ -112,36 +112,3 @@ body {
     color: #333;
     margin-bottom: 10px;
 }
-
-/* Стили для блока "Портфолио" */
-.portfolio {
-    margin-top: 20px;
-}
-
-.portfolio__btn {
-    background: #0077B5;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-}
-
-.portfolio__btn svg {
-    margin-left: 5px;
-}
-
-/* Стили для содержимого блока "Портфолио" */
-#portfolioContent {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Скрытие блока "Портфолио" по умолчанию */
-#portfolioContent.hide {
-    display: none;
-}
